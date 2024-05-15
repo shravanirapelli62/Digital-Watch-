@@ -1,0 +1,59 @@
+body{
+    background:url("paper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+    }
+
+    #action{
+        border: 2px solid black;
+        width: 200px;
+        height: 180px;
+        margin-left: 500px;
+        margin-top: 220px;
+        border: none;
+    }
+    #letter{
+        flex-direction: column;
+    }
+
+    #time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(52, 7, 94) transparent;
+        border: 2px solid black;
+        font-size: 45px;
+        width: 400px;
+        height: 100px;
+        margin-right: 20px;
+        color: white;
+    }
+    #time:hover{
+        text-shadow: 4px 4px 4px blue;
+        box-shadow: 5px 5px 5px rgb(236, 64, 64);
+        border-radius: 40px;
+    }
+    #time1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua transparent;
+        border: 2px solid black;
+        font-size: 45px;
+        color: white;
+        width: 400px;
+        height: 100px;
+        margin-right: 20px;
+        
+
+
+
+    }
+    #time1:hover{
+        text-shadow: 4px 4px 4px blue;
+        box-shadow: 5px 5px 5px rgb(236, 64, 64);
+        border-radius: 40px;
+    }
